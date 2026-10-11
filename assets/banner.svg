@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="220" rx="18" fill="url(#bg)"/>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="60" y="92" font-size="40" font-weight="700" fill="#f8fafc">AI Data Extractor</text>
+    <text x="60" y="130" font-size="20" fill="#a5b4fc">PDF or DOCX in. Clean JSON out.</text>
+    <g font-size="14" font-weight="600">
+      <rect x="60" y="156" width="80" height="30" rx="15" fill="#4f46e5"/>
+      <text x="100" y="176" fill="#ffffff" text-anchor="middle">PDF</text>
+      <rect x="150" y="156" width="80" height="30" rx="15" fill="#4f46e5"/>
+      <text x="190" y="176" fill="#ffffff" text-anchor="middle">DOCX</text>
+      <rect x="240" y="156" width="90" height="30" rx="15" fill="#0891b2"/>
+      <text x="285" y="176" fill="#ffffff" text-anchor="middle">rules</text>
+      <rect x="340" y="156" width="80" height="30" rx="15" fill="#db2777"/>
+      <text x="380" y="176" fill="#ffffff" text-anchor="middle">LLM</text>
+      <rect x="430" y="156" width="90" height="30" rx="15" fill="#16a34a"/>
+      <text x="475" y="176" fill="#ffffff" text-anchor="middle">JSON</text>
+    </g>
+  </g>
+  <g transform="translate(600 50)">
+    <rect x="0" y="0" width="92" height="120" rx="10" fill="#1e293b" stroke="#a5b4fc" stroke-width="3"/>
+    <rect x="16" y="22" width="60" height="7" rx="3" fill="#a5b4fc"/>
+    <rect x="16" y="40" width="44" height="7" rx="3" fill="#a5b4fc" opacity="0.6"/>
+    <rect x="16" y="58" width="54" height="7" rx="3" fill="#a5b4fc" opacity="0.6"/>
+    <rect x="16" y="76" width="36" height="7" rx="3" fill="#a5b4fc" opacity="0.6"/>
+    <path d="M104 60 h40" stroke="#f472b6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M134 50 l12 10 l-12 10" stroke="#f472b6" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="160" y="72" font-family="ui-monospace, Menlo, monospace" font-size="34" font-weight="700" fill="#4ade80">{ }</text>
+  </g>
+</svg>

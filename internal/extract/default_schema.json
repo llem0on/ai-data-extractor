@@ -1,0 +1,53 @@
+{
+  "fields": [
+    {
+      "name": "document_type",
+      "description": "Kind of document, for example SOP, work instruction, policy or form",
+      "type": "enum",
+      "values": ["SOP", "Work Instruction", "Policy", "Form", "Other"],
+      "labels": ["jenis dokumen", "document type", "tipe dokumen"]
+    },
+    {
+      "name": "document_number",
+      "description": "Official document number or code",
+      "type": "string",
+      "labels": ["nomor dokumen", "no\\.?\\s*dok(?:umen)?\\.?", "document\\s*(?:no\\.?|number)", "doc\\.?\\s*no\\.?", "nomor"]
+    },
+    {
+      "name": "title",
+      "description": "Document title",
+      "type": "string",
+      "labels": ["judul", "perihal", "nama dokumen", "title", "document\\s*(?:name|title)"]
+    },
+    {
+      "name": "department",
+      "description": "Department, division or unit that owns the document",
+      "type": "string",
+      "labels": ["departemen", "department", "divisi", "division", "unit kerja"]
+    },
+    {
+      "name": "effective_date",
+      "description": "Date the document takes effect",
+      "type": "date",
+      "labels": ["tanggal berlaku", "tgl\\.?\\s*berlaku", "mulai berlaku(?:\\s*tanggal)?", "berlaku (?:sejak|mulai)", "effective\\s*date", "valid from"]
+    },
+    {
+      "name": "revision",
+      "description": "Revision or version number",
+      "type": "string",
+      "labels": ["revisi", "rev\\.?", "revision", "versi", "version"]
+    },
+    {
+      "name": "prepared_by",
+      "description": "Person or role who prepared the document",
+      "type": "string",
+      "labels": ["dibuat oleh", "disusun oleh", "prepared by", "author"]
+    },
+    {
+      "name": "approved_by",
+      "description": "Person or role who approved the document",
+      "type": "string",
+      "labels": ["disetujui oleh", "disahkan oleh", "approved by"]
+    }
+  ]
+}

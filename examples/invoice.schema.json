@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "name": "invoice_number",
+      "description": "Invoice number printed on the document",
+      "type": "string",
+      "labels": ["invoice\\s*(?:no\\.?|number)", "nomor faktur", "no\\.?\\s*faktur"]
+    },
+    {
+      "name": "invoice_date",
+      "description": "Date the invoice was issued",
+      "type": "date",
+      "labels": ["invoice date", "tanggal faktur", "tgl\\.?\\s*faktur"]
+    },
+    {
+      "name": "due_date",
+      "description": "Payment due date",
+      "type": "date",
+      "labels": ["due date", "jatuh tempo"]
+    },
+    {
+      "name": "vendor",
+      "description": "Company that issued the invoice",
+      "type": "string",
+      "labels": ["vendor", "supplier", "pemasok"]
+    },
+    {
+      "name": "total_amount",
+      "description": "Total amount due including tax, with currency",
+      "type": "string",
+      "labels": ["total", "grand total", "jumlah tagihan"]
+    },
+    {
+      "name": "currency",
+      "description": "Currency of the total amount",
+      "type": "enum",
+      "values": ["IDR", "USD", "SGD", "EUR"]
+    }
+  ]
+}

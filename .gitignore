@@ -1,0 +1,6 @@
+/bin/
+.env
+*.pdf
+*.docx
+.DS_Store
+.vscode/
